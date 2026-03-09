@@ -1,7 +1,7 @@
 <suite name="Flight Booking Automation Suite" verbose="1">
-<test name="Flight Booking End-to-End Test">
-<classes>
-<class name="com.flightbooking.FlightBookingTest"/>
-</classes>
-</test>
+    <test name="Flight Booking End-to-End Test">
+        <classes>
+            <class name="com.flightbooking.FlightBookingTest"/>
+        </classes>
+    </test>
 </suite>

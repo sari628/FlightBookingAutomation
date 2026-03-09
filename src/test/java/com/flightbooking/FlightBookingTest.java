@@ -1,4 +1,4 @@
-package FlightBooking;
+package com.flightbooking;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
-public class FlightBookingAutomation {
+public class FlightBookingTest {
     
     private static final String APP_URL = "https://blazedemo.com/";
     private static final int WAIT_TIMEOUT = 10;
@@ -22,7 +22,7 @@ public class FlightBookingAutomation {
     private Random random;
     
     public static void main(String[] args) {
-        FlightBookingAutomation automation = new FlightBookingAutomation();
+        FlightBookingTest automation = new FlightBookingTest();
         automation.runFlightBookingAutomation();
     }
     
@@ -182,7 +182,7 @@ public class FlightBookingAutomation {
         
         // Scroll to purchase button
         WebElement purchaseButton = driver.findElement(By.cssSelector("input[type='submit'][value='Purchase Flight']"));
-
+        
         
         // Click Purchase Flight button
         purchaseButton.click();
@@ -248,3 +248,4 @@ public class FlightBookingAutomation {
         System.out.println("[SUCCESS] Cleanup completed");
     }
 }
+
