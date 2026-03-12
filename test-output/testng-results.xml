@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-09T18:43:20 IST" name="FlightBookingSuite" finished-at="2026-03-09T18:43:20 IST" duration-ms="12">
+  <suite started-at="2026-03-12T10:43:46 IST" name="Flight Booking Automation Suite" finished-at="2026-03-12T10:44:12 IST" duration-ms="26721">
     <groups>
     </groups>
-    <test started-at="2026-03-09T18:43:20 IST" name="FlightTest" finished-at="2026-03-09T18:43:20 IST" duration-ms="12">
-    </test> <!-- FlightTest -->
-  </suite> <!-- FlightBookingSuite -->
+    <test started-at="2026-03-12T10:43:46 IST" name="Flight Booking End-to-End Test" finished-at="2026-03-12T10:44:12 IST" duration-ms="26721">
+      <class name="com.flightbooking.FlightBookingTest">
+        <test-method signature="runFlightBookingAutomation()[pri:0, instance:com.flightbooking.FlightBookingTest@128d2484]" started-at="2026-03-12T10:43:46 IST" name="runFlightBookingAutomation" finished-at="2026-03-12T10:44:12 IST" duration-ms="26668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFlightBookingAutomation -->
+      </class> <!-- com.flightbooking.FlightBookingTest -->
+    </test> <!-- Flight Booking End-to-End Test -->
+  </suite> <!-- Flight Booking Automation Suite -->
 </testng-results>

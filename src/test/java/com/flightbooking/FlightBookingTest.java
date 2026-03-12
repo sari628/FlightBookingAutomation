@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import java.time.Duration;
 import java.util.List;
@@ -25,7 +27,7 @@ public class FlightBookingTest {
         FlightBookingTest automation = new FlightBookingTest();
         automation.runFlightBookingAutomation();
     }
-    
+    @Test
     public void runFlightBookingAutomation() {
         try {
             setupDriver();
