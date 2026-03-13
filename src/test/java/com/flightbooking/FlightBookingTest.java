@@ -15,18 +15,19 @@ import java.util.List;
 import java.util.Random;
 
 public class FlightBookingTest {
-    
+
     private static final String APP_URL = "https://blazedemo.com/";
     private static final int WAIT_TIMEOUT = 10;
-    
+
     private WebDriver driver;
     private WebDriverWait wait;
     private Random random;
-    
+
     public static void main(String[] args) {
-        FlightBookingTest automation = new FlightBookingTest();
-        automation.runFlightBookingAutomation();
+        FlightBookingTest test = new FlightBookingTest();
+        test.runFlightBookingAutomation();
     }
+
     @Test
     public void runFlightBookingAutomation() {
         try {
@@ -219,7 +220,7 @@ public class FlightBookingTest {
         // Extract and display booking details
         List<WebElement> rows = confirmationTable.findElements(By.tagName("tr"));
         System.out.println("[INFO] Booking Confirmation Details:");
-        System.out.println("==================================================");
+       
         
         for (WebElement row : rows) {
             List<WebElement> cells = row.findElements(By.tagName("td"));
@@ -230,7 +231,7 @@ public class FlightBookingTest {
             }
         }
         
-        System.out.println("==================================================");
+
         System.out.println("[SUCCESS] Booking confirmation verified successfully");
     }
     

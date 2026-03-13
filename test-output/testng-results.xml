@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-12T10:43:46 IST" name="Flight Booking Automation Suite" finished-at="2026-03-12T10:44:12 IST" duration-ms="26721">
+  <suite started-at="2026-03-13T12:03:16 IST" name="Flight Booking Automation Suite" finished-at="2026-03-13T12:03:47 IST" duration-ms="31279">
     <groups>
     </groups>
-    <test started-at="2026-03-12T10:43:46 IST" name="Flight Booking End-to-End Test" finished-at="2026-03-12T10:44:12 IST" duration-ms="26721">
+    <test started-at="2026-03-13T12:03:16 IST" name="Flight Booking End-to-End Test" finished-at="2026-03-13T12:03:47 IST" duration-ms="31279">
       <class name="com.flightbooking.FlightBookingTest">
-        <test-method signature="runFlightBookingAutomation()[pri:0, instance:com.flightbooking.FlightBookingTest@128d2484]" started-at="2026-03-12T10:43:46 IST" name="runFlightBookingAutomation" finished-at="2026-03-12T10:44:12 IST" duration-ms="26668" status="PASS">
+        <test-method signature="runFlightBookingAutomation()[pri:0, instance:com.flightbooking.FlightBookingTest@128d2484]" started-at="2026-03-13T12:03:16 IST" name="runFlightBookingAutomation" finished-at="2026-03-13T12:03:47 IST" duration-ms="31226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runFlightBookingAutomation -->
